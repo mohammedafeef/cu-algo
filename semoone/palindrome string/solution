@@ -1,4 +1,4 @@
-solution:
+solution :
 
 #include<stdio.h>
 #include<conio.h>
