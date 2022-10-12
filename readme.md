@@ -28,3 +28,7 @@ root folder: semOne/stringReversal
   .
   .
 ```
+
+### Coding conventions
+- Folder names will be in camel case
+- Follow conventions for your respective lang
