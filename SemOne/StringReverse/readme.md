@@ -1,2 +1,2 @@
-Problem: Create a code to reverse a string.
-Details: Reverse a sting using c
+Problem: Create a code to reverse a string using pointer.
+Details: Reverse a sting using c.
