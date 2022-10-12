@@ -1,1 +1,1 @@
-solution to linear search 
+solution to linear search solved
