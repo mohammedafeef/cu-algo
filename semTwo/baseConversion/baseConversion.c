@@ -5,6 +5,7 @@ void main()
 {
     unsigned dec,t,d,i;
     char bin[20],oct[15],hex[5];
+    clrscr();
     printf("Enter a decimal number : ");
     scanf("%u",&dec);
     t=dec;
@@ -14,7 +15,7 @@ void main()
         d=t%2;
         t=t/2;
         bin[i++]=d+48;
-    }while(t!=0);
+    }while(t!=0);//Binary conversion
     bin[i]='\0';
     strrev(bin);
     t=dec;
@@ -24,7 +25,7 @@ void main()
         d=t%8;
         t=t/8;
         oct[i++]=d+48;
-    }while(t!=0);
+    }while(t!=0);//Octal convrsion
     oct[i]='\0';
     strrev(oct);
     t=dec;
@@ -35,10 +36,11 @@ void main()
         t=t/16;
         if(d>9) hex[i++]=d+55;
         else hex[i++]=d+48;
-    }while(t!=0);
+    }while(t!=0);//Headecimal conversion
     hex[i]='\0';
     strrev(hex);
     printf("\nBinary equivalent of %u is %s",dec,bin);
     printf("\nOctal equivalent of %u is %s",dec,oct);
     printf("\nHexadecimal equivalent of %u is %s",dec,hex);
+    getch();
 }
