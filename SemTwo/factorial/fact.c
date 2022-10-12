@@ -1,10 +1,6 @@
-Problem: <Write a C program to calculate the Factorial of a given number>
-Details: <if statement and for loop are used in this program to make a better program >
-
-Solution:
-
 #include <stdio.h>
-int main() {
+int main() 
+{
     int n, i;
     unsigned long long fact = 1;
     printf("Enter an integer: ");
