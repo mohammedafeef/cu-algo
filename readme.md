@@ -13,15 +13,16 @@ Details: <details in list format>
 ```
 - Create solve file for problem solution.
 - Mention your problem in PR title (problem: add string reversal)
+
 #### Example
 ```
 root folder: semOne/stringReversal
 
-./semOne/readme.md
+./semOne/stringReversal/readme.md
   Problem: reverse a string 
   details: minimal time & space complexity
 
-./semOne/reverse.c
+./semOne/stringReversal/reverse.c
   code
   .
   .
