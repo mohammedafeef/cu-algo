@@ -1,2 +1,2 @@
-Problem: Create a code to dispaly a star pyramid.
-Details: Star Pyramid using C
+Problem: C program to display pyramid star
+Details:You can make a pyramid using *
