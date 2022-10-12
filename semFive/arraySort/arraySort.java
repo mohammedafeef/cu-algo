@@ -1,10 +1,12 @@
-// Display the smallest, largest and second largest number from an array
+// Array Sorting (Bubble sort)
 
 import java.io.*;
 import java.util.Scanner;
 
-public class SmallestAndLargest{
-	public static void main(String args[]){
+public class ArraySort
+{
+	public static void main(String[] args)
+	{
 		Scanner s = new Scanner(System.in);
 
 		System.out.print("Enter the number of elements : ");
@@ -22,16 +24,9 @@ public class SmallestAndLargest{
 					array[j+1] = temp;
 				}
 
-		System.out.println("\nSmallest - "+array[0]+"\nLargest - "+array[n-1]+"\nSecond Largest - "+array[n-2]);
+		System.out.print("The sorted array is : ");
+		for (int i = 0; i < n; i++)
+				System.out.print(array[i] + " ");
+			System.out.println();
 	}
 }
-
-// expected output
-/* 
-Enter the number of elements : 5                       
-Enter the elements into array : 56 32 45 13 40
-
-Smallest - 13
-Largest - 56
-Second Largest - 45 
-*/
