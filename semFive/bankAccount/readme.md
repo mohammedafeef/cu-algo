@@ -1,2 +1,2 @@
-problem :Bank Account : Deposit & Withdrawal
-details :Bank Account: Deposit & Withdrawal
+problem :Bank Account (Deposit & Withdrawal)
+details :tracking deposit and windrawel
