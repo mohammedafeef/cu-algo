@@ -1,0 +1,1 @@
+solution for binary search
