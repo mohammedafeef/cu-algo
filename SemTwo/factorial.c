@@ -1,4 +1,5 @@
-
+Problem: <Write a C program to calculate the Factorial of a given number>
+Details: <statement - if>
 
 
 #include <stdio.h>
