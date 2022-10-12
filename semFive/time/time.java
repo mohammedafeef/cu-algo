@@ -2,6 +2,7 @@
 
 import java.lang.Math;
 
+
 public class Time {
 	public int hours;
 	public int minutes;
