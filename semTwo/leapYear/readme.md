@@ -1,2 +1,2 @@
-Problem: Leap year identifier.
-Details: this program is identifier of whether a year is leap year or not.
+problem:C Program to Check Leap Year
+Details: check whether the year entered by the user is a leap year or not.
